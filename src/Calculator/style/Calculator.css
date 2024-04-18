@@ -1,0 +1,33 @@
+.calculator {
+  width: 200px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.buttons {
+  /* display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px; */
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.calculator {
+  width: 180px;
+  margin: 0 auto;
+  border: 1px solid green;
+  padding: 10px;
+  /* border-radius: 5px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background-color: rgb(137, 212, 212);
+}
